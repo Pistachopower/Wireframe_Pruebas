@@ -19,7 +19,7 @@
             const allFaqItems = document.querySelectorAll('.faq-item');
             
             allFaqItems.forEach(item => {
-                if (item !== faqItem) {
+                if (item !== faqItem) {  
                     item.classList.remove('active');
                 }
             });
